@@ -13,7 +13,7 @@ class PagesController extends Controller
             return view('StaffArea');
         }
                 public function managersArea(){
-            return view('ManagersArea');
+            return view('Admin');
         }
                 public function aboutUs(){
             return view('AboutUs');
